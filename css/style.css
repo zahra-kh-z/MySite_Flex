@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Vazir.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+
+body {
+    font-family: 'Vazir', Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo span {
+    color: orange;
+}
+
+header {
+    position: sticky;
+    top: 0rem;
+    left: 0rem;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+  }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: baseline;
+}
+
+#navbar ul, #main-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#navbar ul a {
+    padding: 1rem;
+}
+
+#navbar ul a:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#Mountain {
+    background: url('../img/Mountain_Backgrounds.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+  
+#Mountain .Mountain-content {
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+  
+.Mountain-content p {
+    padding: 40px;
+}
+
+.lead {
+    font-size: 20px;
+}
+  
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: orange;
+    padding: 13px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.btn:hover {
+    background: #FFF;
+    color: orange;
+}
+
+
+#container{
+    display: flex;
+    flex: 1;
+    /* flex-basis: 1; */
+    text-align: right;
+    justify-content: center;
+    padding: 40px 100px;
+}
+
+#h1_item{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item h1{
+    padding: 0px 20px;
+}
+
+#icon{
+    align-self: center;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 20px 20px;
+}
+
+
+/* .info_img{
+    background: url('../img/pexels-photo-2.jpg') no-repeat center center/cover;
+    height: 500px;
+} */
+
+#section_pic{
+    display: flex;
+    flex-basis: 1;
+    margin-bottom: 0%;
+}
+
+#section_pic img {
+    max-width: 50%;
+}
+
+#section_pic ul{
+    list-style: none;
+}
+
+#text_list{
+    text-align: right;
+    padding: 20px;
+    height: 490px;
+}
+
+#text_list div h1{
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+
+
+#text_list ul li{
+    padding: 5px;
+}
+
+#section_pic hr{
+    color: rgb(93, 97, 97);
+}
+
+
+#container_person .icon2{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#container_person .icon2 img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+#container_person {
+   padding: 50px 20px;
+   text-align: center;
+}
+
+.bg-gray {
+    background: rgba(241, 241, 241, 0.973);
+    color: black;
+}
+
+
+#contact-form{
+    text-align: right;
+    max-width: 600px;
+    padding: 20px 300px;
+}
+
+input, textarea{
+    max-width: 600px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#contact-form .btn{
+    margin-right: 0px;
+    margin-top: 10px;
+    border: 1px rgb(10, 10, 10) solid;
+}
+
+#contact-form input, 
+#contact-form textarea {
+width: 100%;
+border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+height: 30px;
+}
+  
+#contact-form input:focus, 
+#contact-form textarea:focus {
+border-color: #0c2461;
+}
+
+  /* Footer */
+#main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: baseline;
+}
+
+#main-footer ul li{
+    padding: 0.2rem;
+}

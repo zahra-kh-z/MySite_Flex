@@ -1,0 +1,91 @@
+
+#navbar{
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+#Mountain{
+    padding-bottom: 200px;
+}
+
+#Mountain p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.item p{
+    font-size: 15px;
+    text-align: right;
+}
+
+
+#container{
+    flex-flow: row wrap;
+}
+
+#del_img{
+    display: none;
+}
+
+#container_person .icon2{
+    padding: 0px 30px;
+}
+
+#contact-form{
+    text-align: right;
+    max-width: 100%;
+    padding: 20px 20px;
+}
+
+#main-footer {
+    padding: 10px 50px;
+}
+
+
+#section_pic img{
+    width: 300px;
+}
+#text_list{
+    width: 500px;
+    font-size: 12px;
+}
+
+#text_list div h1{
+    padding: 0px 15px;
+}
+
+
+@media screen and (max-width: 460px){
+    #section_pic{
+        flex-direction: column;
+    }
+    
+    #section_pic img{
+        width: 430px;
+        height: 300px;
+        max-width: 430px;
+        object-fit: cover;
+    }
+
+    #text_list{
+        width: 390px;
+        height: 400px;
+    }
+
+    #container{
+        flex-flow: row wrap;
+        padding-inline-end: 0%;
+        padding-inline-start: 0%;
+        padding-left: 20px;
+    }
+
+    #Mountain p{
+        text-align: right;
+    }
+
+}
